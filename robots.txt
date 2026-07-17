@@ -1,0 +1,4 @@
+# Draft stage: block all crawlers while the site is being built.
+# When you're ready to go live, delete the two lines below.
+User-agent: *
+Disallow: /
