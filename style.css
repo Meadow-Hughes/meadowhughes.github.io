@@ -251,6 +251,43 @@ section{
 .cert__body p{ color: var(--ink-dim); font-size: 0.95rem; }
 
 /* ---------------------------------------------
+   Education
+--------------------------------------------- */
+.education__list{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.edu{
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+.edu__period{
+  color: var(--accent);
+  font-size: 0.8rem;
+  padding-top: 0.2rem;
+}
+
+.edu__body h3{
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.15rem;
+  margin-bottom: 0.35rem;
+}
+
+.edu__org{
+  color: var(--ink);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.edu__body p{ color: var(--ink-dim); font-size: 0.95rem; }
+
+/* ---------------------------------------------
    Projects
 --------------------------------------------- */
 .work__list{
@@ -325,4 +362,5 @@ section{
   .hero__photo{ width: 120px; height: 120px; order: -1; }
   .topnav__links{ gap: 1rem; }
   .cert{ grid-template-columns: 1fr; gap: 0.5rem; }
+  .edu{ grid-template-columns: 1fr; gap: 0.5rem; }
 }
