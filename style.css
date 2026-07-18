@@ -250,6 +250,24 @@ section{
 
 .cert__body p{ color: var(--ink-dim); font-size: 0.95rem; }
 
+.cert__proof{
+  display: inline-block;
+  margin-top: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  overflow: hidden;
+  transition: border-color 0.15s ease;
+}
+
+.cert__proof:hover{ border-color: var(--accent); }
+
+.cert__proof img{
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+}
+
 /* ---------------------------------------------
    Education
 --------------------------------------------- */
