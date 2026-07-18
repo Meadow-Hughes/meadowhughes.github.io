@@ -251,7 +251,9 @@ section{
 .cert__body p{ color: var(--ink-dim); font-size: 0.95rem; }
 
 .cert__proof{
-  display: inline-block;
+  display: block;
+  width: 100%;
+  max-width: 280px;
   margin-top: 1rem;
   border: 1px solid var(--line);
   border-radius: 3px;
@@ -264,7 +266,6 @@ section{
 .cert__proof img{
   display: block;
   width: 100%;
-  max-width: 320px;
   height: auto;
 }
 
